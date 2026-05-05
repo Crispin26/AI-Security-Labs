@@ -34,10 +34,8 @@ on a pre-trained Inception v3 model using the same perturbation budget (ε = 8/2
 - PGD perturbation appears more structured than FGSM noise
   
 ### Results
-#### Step A: FGSM Attack (1 step)
-![FGSM Results](images/fgsm_results.png)
-#### Step B: PGD Attack (10 steps)
-![PGD Results](images/pgd_results.png)
+#### Step A (FGSM) vs Step B (PGD) — Clean, Perturbation & Adversarial Images
+![FGSM vs PGD Results](images/fgsm_pgd_results.png)
 #### Confidence Comparison
 ![Bar Chart](images/comparison_bar_chart.png)
 
