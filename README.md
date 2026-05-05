@@ -32,6 +32,14 @@ on a pre-trained Inception v3 model using the same perturbation budget (ε = 8/2
 - PGD (10 steps) reduced model confidence from 30.66% to 0.00%
 - Same budget, but PGD is far more destructive
 - PGD perturbation appears more structured than FGSM noise
+  
+### Results
+#### Step A: FGSM Attack (1 step)
+![FGSM Results](images/fgsm_results.png)
+#### Step B: PGD Attack (10 steps)
+![PGD Results](images/pgd_results.png)
+#### Confidence Comparison
+![Bar Chart](images/comparison_bar_chart.png)
 
 ## 👤 Author
 **ALINGILYA CRISPIN NJEWA** — Passionate about AI Security and Cybersecurity
